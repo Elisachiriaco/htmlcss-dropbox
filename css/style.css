@@ -23,6 +23,22 @@ body{
     color: #fff;
     text-decoration: none;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.box{
+    width: 70%;
+    margin: 0 auto;
+}
+.circle{
+    display:block;
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%
+  }
 
 /* header */
 header{
@@ -75,11 +91,7 @@ li{
     padding: 6% 0 6%;
     background-color: rgba(180,208,231,255);
 }
-.header-text{
-    width: 80%;
-    margin: 0 auto;
-}
-.header-text h1{
+.container h1{
     padding:5% 0 2%;
     font-size: 55px;
 }
@@ -96,4 +108,30 @@ p{
     position: absolute;
     top:70%;
     right:10%;
+}
+
+/* main */
+.box h2{
+    font-size: 30px;
+    padding: 20% 0 5%;
+}
+.col{
+    width: 30%;
+    float: left;
+    font-size: 12px;
+}
+.col-center{
+    width: 30%;
+    margin-left: 5%;
+    margin-right:5%;
+    float: left;
+}
+.plan{
+    font-size: 15px;
+    text-align: center;
+    padding:30% 37%;
+    color:#656565;
+}
+.plan .fa-solid{
+    font-size:15px;
 }
