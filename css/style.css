@@ -119,6 +119,7 @@ p{
     width: 30%;
     float: left;
     font-size: 12px;
+    margin: 0 auto;
 }
 .col-center{
     width: 30%;
@@ -134,4 +135,49 @@ p{
 }
 .plan .fa-solid{
     font-size:15px;
+}
+.price{
+    font-weight: bold;
+}
+.month{
+    color: #74828e;
+}
+.fa-solid{
+    font-size:10px;
+}
+li .fa-solid{
+    color: blue;
+    font-size: 15px;
+    font-weight:bold;
+}
+.text-left{
+    width: 90%;
+    margin: 0 auto;
+    line-height: 30px;
+    padding:10px 2px 62px;
+    font-size: 12px;
+}
+.text{
+    width: 90%;
+    margin: 0 auto;
+    line-height: 30px;
+    padding:10px 2px 30px;
+    font-size: 12px;
+}
+.col-down{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+.right{
+    float: right;
+    position: absolute;
+    top: 20%;
+    right: 4%;
+}
+.col-down h3{
+    padding:2% 0 1%;
+}
+.col-down p{
+    display: inline;
 }
