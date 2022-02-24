@@ -16,12 +16,11 @@ body{
     display:table;
     clear: both;
 }
-.btn {
+.btn{
     display: inline-block;
-    width:70px;
-    height: 30px;
+    padding: 5px 10px;
     background-color: blue;
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -53,11 +52,11 @@ ul a {
 }
 .nav-left{
     float: left;
-    padding-left:10%;
+    padding-left:9%;
 }
 .nav-right{
     float: right;
-    padding-right:8%;
+    padding-right:6%;
 }
 li{
     display: inline-block;
@@ -71,4 +70,30 @@ li{
 #inizia a{
     text-align: center;
     line-height: 30px;
+}
+.jumbotron{
+    padding: 6% 0 6%;
+    background-color: rgba(180,208,231,255);
+}
+.header-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-text h1{
+    padding:5% 0 2%;
+    font-size: 55px;
+}
+p{
+    width: 30%;
+    padding: 2% 0 3%;
+}
+.fa-solid{
+    font-size:50px;
+}
+.jumbotron img{
+    width:55%;
+    float: right;
+    position: absolute;
+    top:70%;
+    right:10%;
 }
