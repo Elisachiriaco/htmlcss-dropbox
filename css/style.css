@@ -232,4 +232,11 @@ li .fa-solid{
     width:95%;
     padding: 5% 0 30%;
 }
+.dropbox{
+    text-decoration: underline;
+}
+.business h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
 
