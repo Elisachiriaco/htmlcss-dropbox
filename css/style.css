@@ -220,3 +220,16 @@ li .fa-solid{
     width: 70%;
     margin: 0 auto;
 }
+.box1{
+    width: calc(100% / 3);
+    float: left;
+}
+.box1 img {
+    width:95%;
+    padding-top:10%;
+}
+.box1 p{
+    width:95%;
+    padding: 5% 0 30%;
+}
+
