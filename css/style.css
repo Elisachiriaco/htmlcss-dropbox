@@ -23,6 +23,14 @@ body{
     color: #fff;
     text-decoration: none;
 }
+.btn-white{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -30,6 +38,7 @@ body{
 .box{
     width: 70%;
     margin: 0 auto;
+    margin-bottom:5%;
 }
 .circle{
     display:block;
@@ -46,6 +55,7 @@ header{
 }
 nav{
     position: fixed;
+    z-index: 2000;
 }
 ul{
     display: inline-block;
@@ -172,7 +182,7 @@ li .fa-solid{
 .right{
     float: right;
     position: absolute;
-    top: 20%;
+    top: 35%;
     right: 4%;
 }
 .col-down h3{
@@ -180,4 +190,33 @@ li .fa-solid{
 }
 .col-down p{
     display: inline;
+    font-size: 12px;
+}
+.plan2{
+    font-size: 15px;
+    text-align: center;
+    color:#656565;
+    padding:5% 47%;
+}
+.partner{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10% 0;
+    position:relative;
+}
+.partner img {
+    width:50%;
+    float:left;
+    padding-right:40px;
+}
+.partner h3{
+    padding-top: 20px;
+}
+.partner p {
+    width: 90%;
+    padding-top: 15px;
+}
+.operation{
+    width: 70%;
+    margin: 0 auto;
 }
