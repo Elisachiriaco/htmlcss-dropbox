@@ -48,6 +48,9 @@ body{
     background: red;
     border-radius: 50%
   }
+.line{
+    width: 15%;
+}
 
 /* header */
 header{
@@ -109,7 +112,7 @@ p{
     width: 30%;
     padding: 2% 0 3%;
 }
-.fa-solid{
+.container .fa-solid{
     font-size:50px;
 }
 .jumbotron img{
@@ -241,6 +244,7 @@ li .fa-solid{
 }
 /* section row */
 .row{
+    margin-top: 30px;
     width: 100%;
     position: relative;
 }
@@ -383,4 +387,29 @@ footer{
 
 h6{
     font-size: 20px;
+    padding-bottom: 5px;
+}
+.list ul{
+    padding: 85px 0 85px 85px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.rule{
+    width: 9%;
+    color: #383838;
+    margin-left:85px;
+}
+.ita{
+    color: #585858;
+    padding-left:85px;
+    font-size: 12px;
+}
+.ita .fa-solid{
+    font-size: 15px;
+    color: white;
+    padding:40px 0px;
+}
+.ita :nth-child(2){
+    font-size: 10px;
+    color: #585858;
 }
