@@ -41,13 +41,21 @@ body{
     margin-bottom:5%;
 }
 .circle{
-    display:block;
+    display:inline-block;
     border: 1px solid black;
-    width: 10px;
-    height: 10px;
-    background: red;
+    width: 15px;
+    height: 15px;
     border-radius: 50%
-  }
+}
+.blue-circle{
+    border: 4px solid #0061FF;
+}
+.white-circle{
+    margin-left: 1%;
+}
+.checkbox{
+    margin-bottom:30px;
+}
 .line{
     width: 15%;
 }
@@ -83,6 +91,14 @@ ul a {
     float: left;
     padding-left:9%;
 }
+.submenu{
+    display:none;
+    color: black;
+    background-color: white;
+}
+.nav-left:hover + .submenu{
+    display: block;
+}
 .nav-right{
     float: right;
     padding-right:6%;
@@ -99,6 +115,9 @@ li{
 #inizia a{
     text-align: center;
     line-height: 30px;
+}
+#inizia a:hover{
+    background-color: #007fff;
 }
 .jumbotron{
     padding: 6% 0 6%;
@@ -361,6 +380,15 @@ li .fa-solid{
     margin: 0 auto;
     padding-bottom:100px;
 }
+.question p{
+    display: none;
+    width: 100%;
+    color: #74828e;
+    font-size: 13px;
+}
+span:hover + p {
+    display: block;
+  }
 .question h5{
     padding:80px 0 30px;
     font-size: 25px;
@@ -368,6 +396,7 @@ li .fa-solid{
 .question span{
     line-height: 80px;
     font-weight: bold;
+    cursor: pointer;
 }
 .question .fa-solid{
     font-size: 20px;
