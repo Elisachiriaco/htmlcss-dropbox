@@ -8,6 +8,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     min-width: 1200px;
 }
+html{
+    scroll-behavior: smooth;
+}
 .debug{
     border: 1px solid black;
 }
@@ -150,6 +153,10 @@ ul a {
 .nav-right li .submenu li:hover{
       background: white;
 }
+nav li:hover{
+    border-bottom: 5px solid blue;
+    height: 45px;
+}
 /* fine submenu */
 .nav-right{
     float: right;
@@ -159,10 +166,7 @@ li{
     display: inline-block;
     vertical-align: middle;
 }
-nav li:hover{
-    border-bottom: 5px solid blue;
-    height: 45px;
-}
+
 #inizia{
     position: absolute;
     top:30%;
@@ -189,6 +193,8 @@ p{
 }
 .container .fa-solid{
     font-size:50px;
+    cursor: pointer;
+    color: black;
 }
 .jumbotron img{
     width:55%;
