@@ -72,6 +72,7 @@ ul{
     display: inline-block;
 }
 ul a {
+    height: 25px;
     text-decoration: none;
     font-size: 15px;
     color: black;
@@ -81,6 +82,7 @@ ul a {
     width: 100%;
     background-color: white;
     padding:2%;
+    height: 70px;
 }
 .logo{
     position: absolute;
@@ -91,14 +93,64 @@ ul a {
     float: left;
     padding-left:9%;
 }
-.submenu{
-    display:none;
-    color: black;
-    background-color: white;
+/* subemenu */
+.nav-left li:hover{
+    border-bottom: 5px solid blue;
 }
-.nav-left:hover + .submenu{
+.nav-left li:hover .submenu{
     display: block;
 }
+.nav-left li .submenu{
+    margin-top: 22px;
+    position: absolute;
+    width: 200px;
+    line-height: 30px;
+    display: none;
+    font-size: 12px;
+}
+.nav-left li .submenu li { 
+    background: white; 
+    display: block; 
+    cursor: pointer;
+}
+.nav-left li .submenu li a{
+    display:block;
+    font-size: 12px;
+    background-color: white;
+    padding-bottom: 40px;
+} 
+.nav-left li .submenu li:hover{
+      background: white;
+}
+.nav-right li:hover{
+    border-bottom: 5px solid blue;
+}
+.nav-right li:hover .submenu{
+    display: block;
+}
+.nav-right li .submenu{
+    margin-top: 22px;
+    position: absolute;
+    width: 200px;
+    line-height: 30px;
+    display: none;
+    font-size: 12px;
+}
+.nav-right li .submenu li { 
+    background: white; 
+    display: block; 
+    cursor: pointer;
+}
+.nav-right li .submenu li a{
+    display:block;
+    font-size: 12px;
+    background-color: white;
+    padding-bottom: 40px;
+} 
+.nav-right li .submenu li:hover{
+      background: white;
+}
+/* fine submenu */
 .nav-right{
     float: right;
     padding-right:6%;
@@ -106,6 +158,10 @@ ul a {
 li{
     display: inline-block;
     vertical-align: middle;
+}
+nav li:hover{
+    border-bottom: 5px solid blue;
+    height: 45px;
 }
 #inizia{
     position: absolute;
