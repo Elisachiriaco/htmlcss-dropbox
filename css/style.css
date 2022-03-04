@@ -197,11 +197,11 @@ p{
     color: black;
 }
 .jumbotron img{
-    width:55%;
+    width:65%;
     float: right;
     position: absolute;
-    top:70%;
-    right:10%;
+    top:55%;
+    right: 0;
 }
 
 /* main */
